@@ -149,8 +149,7 @@ Options:
   --no-module-parser-javascript-unknown-context-recursive                            Negative 'module-parser-javascript-unknown-context-recursive' option.
   --module-parser-javascript-unknown-context-reg-exp <value>                         Sets the regular expression when using the require function in a not statically analyse-able way.
   --module-parser-javascript-unknown-context-request <value>                         Sets the request when using the require function in a not statically analyse-able way.
-  --module-parser-javascript-url                                                     Enable/disable parsing of new URL() syntax.
-  --no-module-parser-javascript-url                                                  Negative 'module-parser-javascript-url' option.
+  --module-parser-javascript-url <value>                                             Enable/disable parsing of new URL() syntax.
   --module-parser-javascript-worker <value...>                                       Specify a syntax that should be parsed as WebWorker reference. 'Abc' handles 'new Abc()', 'Abc from xyz' handles 'import { Abc } from "xyz"; new Abc()', 'abc()' handles 'abc()', and combinations are also possible. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-worker-reset                                            Clear all items provided in configuration. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-wrapped-context-critical                                Enable warnings for partial dynamic dependencies.
@@ -202,8 +201,7 @@ Options:
   --no-module-parser-javascript-auto-unknown-context-recursive                       Negative 'module-parser-javascript-auto-unknown-context-recursive' option.
   --module-parser-javascript-auto-unknown-context-reg-exp <value>                    Sets the regular expression when using the require function in a not statically analyse-able way.
   --module-parser-javascript-auto-unknown-context-request <value>                    Sets the request when using the require function in a not statically analyse-able way.
-  --module-parser-javascript-auto-url                                                Enable/disable parsing of new URL() syntax.
-  --no-module-parser-javascript-auto-url                                             Negative 'module-parser-javascript-auto-url' option.
+  --module-parser-javascript-auto-url <value>                                        Enable/disable parsing of new URL() syntax.
   --module-parser-javascript-auto-worker <value...>                                  Specify a syntax that should be parsed as WebWorker reference. 'Abc' handles 'new Abc()', 'Abc from xyz' handles 'import { Abc } from "xyz"; new Abc()', 'abc()' handles 'abc()', and combinations are also possible. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-auto-worker-reset                                       Clear all items provided in configuration. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-auto-wrapped-context-critical                           Enable warnings for partial dynamic dependencies.
@@ -255,8 +253,7 @@ Options:
   --no-module-parser-javascript-dynamic-unknown-context-recursive                    Negative 'module-parser-javascript-dynamic-unknown-context-recursive' option.
   --module-parser-javascript-dynamic-unknown-context-reg-exp <value>                 Sets the regular expression when using the require function in a not statically analyse-able way.
   --module-parser-javascript-dynamic-unknown-context-request <value>                 Sets the request when using the require function in a not statically analyse-able way.
-  --module-parser-javascript-dynamic-url                                             Enable/disable parsing of new URL() syntax.
-  --no-module-parser-javascript-dynamic-url                                          Negative 'module-parser-javascript-dynamic-url' option.
+  --module-parser-javascript-dynamic-url <value>                                     Enable/disable parsing of new URL() syntax.
   --module-parser-javascript-dynamic-worker <value...>                               Specify a syntax that should be parsed as WebWorker reference. 'Abc' handles 'new Abc()', 'Abc from xyz' handles 'import { Abc } from "xyz"; new Abc()', 'abc()' handles 'abc()', and combinations are also possible. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-dynamic-worker-reset                                    Clear all items provided in configuration. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-dynamic-wrapped-context-critical                        Enable warnings for partial dynamic dependencies.
@@ -308,8 +305,7 @@ Options:
   --no-module-parser-javascript-esm-unknown-context-recursive                        Negative 'module-parser-javascript-esm-unknown-context-recursive' option.
   --module-parser-javascript-esm-unknown-context-reg-exp <value>                     Sets the regular expression when using the require function in a not statically analyse-able way.
   --module-parser-javascript-esm-unknown-context-request <value>                     Sets the request when using the require function in a not statically analyse-able way.
-  --module-parser-javascript-esm-url                                                 Enable/disable parsing of new URL() syntax.
-  --no-module-parser-javascript-esm-url                                              Negative 'module-parser-javascript-esm-url' option.
+  --module-parser-javascript-esm-url <value>                                         Enable/disable parsing of new URL() syntax.
   --module-parser-javascript-esm-worker <value...>                                   Specify a syntax that should be parsed as WebWorker reference. 'Abc' handles 'new Abc()', 'Abc from xyz' handles 'import { Abc } from "xyz"; new Abc()', 'abc()' handles 'abc()', and combinations are also possible. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-esm-worker-reset                                        Clear all items provided in configuration. Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().
   --module-parser-javascript-esm-wrapped-context-critical                            Enable warnings for partial dynamic dependencies.
